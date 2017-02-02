@@ -1,6 +1,7 @@
 ﻿using System;
+using CarPark.Model;
 
-namespace CarPark
+namespace CarPark.Calculator
 {
     public class RateCalculator : IRateCalculator
     {

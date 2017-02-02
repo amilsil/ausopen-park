@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using CarPark.Calculator;
+using CarPark.Model;
+using NUnit.Framework;
 using System;
 
 namespace CarPark.Tests
