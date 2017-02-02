@@ -51,8 +51,9 @@ namespace CarPark
                 };
             }
 
-            // Hourly Rate
-            // number of hours
+            /*
+             * Hourley Rate is 5 times number of hours but maximum 20.
+             **/
             var timeSpan = exitTime - entryTime;
             var psudoResult = (decimal)(Math.Ceiling(timeSpan.TotalHours)) * 5;
             
